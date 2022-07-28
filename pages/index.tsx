@@ -3,7 +3,7 @@ import HomeIcon from "@mui/icons-material/Home";
 
 export default function Home() {
   return (
-    <Container className={"background-gradient"}>
+    <Container maxWidth={false} className={"background-gradient"}>
       <Stack height={"100vh"} justifyContent={"center"} alignItems={"center"}>
         <Typography
           textAlign={{ xs: "center", md: "left" }}
