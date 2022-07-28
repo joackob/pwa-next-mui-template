@@ -1,0 +1,7 @@
+.background-gradient {
+  /* Created with https://www.css-gradient.com */
+  background: #7610eb;
+  background: -webkit-linear-gradient(top left, #7610eb, #4c9693);
+  background: -moz-linear-gradient(top left, #7610eb, #4c9693);
+  background: linear-gradient(to bottom right, #7610eb, #4c9693);
+}
