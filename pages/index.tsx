@@ -6,7 +6,7 @@ export default function Home() {
     <Container maxWidth={false} className={"background-gradient"}>
       <Stack height={"100vh"} justifyContent={"center"} alignItems={"center"}>
         <Typography
-          textAlign={{ xs: "center", md: "left" }}
+          align="center"
           fontWeight="bold"
           color={"white"}
           variant="h3"
