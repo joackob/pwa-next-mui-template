@@ -116,3 +116,6 @@ Con la marca ya elegida, proceda a elegir los colores que serán parte del estil
 - https://mui.com/material-ui/customization/theming/
 - https://mui.com/material-ui/customization/color/
 
+### Mobile
+
+Para que la modalidad mobile sea una experiencia completa, se recomienda modificar los códigos de colores presentes en los archivos `manifest.json`, `site.webmanifest`, `src/layout/components/Header`.
