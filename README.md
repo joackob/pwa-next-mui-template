@@ -52,7 +52,7 @@ Se puede usar el archivo `.env` para configurar estas variables de entorno en te
 
 ## Pasos para crear este template
 
-El primer comando a ejecutar es el que setea el proyecto desde cero.
+Este proyecto esta listo para ser customizado, pero si te parece necesario, podes empezar todo desde cero. El primer comando a ejecutar es el que setea el proyecto desde cero.
 
 ```bash
 npx create-next-app --example progressive-web-app my-pwa
