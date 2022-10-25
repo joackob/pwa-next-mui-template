@@ -1,44 +1,17 @@
 import Head from "next/head";
-import "@fontsource/roboto/300.css";
-import "@fontsource/roboto/400.css";
-import "@fontsource/roboto/500.css";
-import "@fontsource/roboto/700.css";
 import "../styles/globals.css";
-import "../styles/colors.css";
 import { AppProps } from "next/app";
+import Theme from "@/src/theme/Theme";
+import Layout from "@/src/layout/Layout";
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   return (
     <>
-      <Head>
-        <meta charSet="utf-8" />
-        <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
-        <meta
-          name="viewport"
-          content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no"
-        />
-        <meta name="description" content="Description" />
-        <meta name="keywords" content="Keywords" />
-        <title>Next.js PWA Example</title>
-
-        <link rel="manifest" href="/manifest.json" />
-        <link
-          href="/icons/favicon-16x16.png"
-          rel="icon"
-          type="image/png"
-          sizes="16x16"
-        />
-        <link
-          href="/icons/favicon-32x32.png"
-          rel="icon"
-          type="image/png"
-          sizes="32x32"
-        />
-        <link rel="apple-touch-icon" href="/apple-icon.png"></link>
-        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-        <meta name="theme-color" content="#7610eb" />
-      </Head>
-      <Component {...pageProps} />
+      <Theme>
+        <Layout>
+          <Component {...pageProps} />
+        </Layout>
+      </Theme>
     </>
   );
 }
