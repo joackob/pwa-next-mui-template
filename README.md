@@ -33,7 +33,7 @@ Procurar tener actualizado `node.js` a la versión `lts`. Si desea asegurarse, p
 
 ## Variables de entorno
 
-- `NODE_ENV`: Variable que identifique el entorno en que se ejecuta el proyecto. "development": en desarrollo, "production": en producción, "test": en testing.
+- `NODE_ENV`: Variable que identifica el entorno en que se ejecuta el proyecto. "development": en desarrollo, "production": en producción, "test": en testing.
 
 Se puede usar el archivo `.env` para configurar estas variables de entorno en testing y desarrollo. Solo se debe ejecutar el comando `cp .env.example .env`.
 
