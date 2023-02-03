@@ -4,10 +4,10 @@ Este template fue creado para aprender sobre tecnologías frontend. Posee un eje
 
 ## Entorno
 
-Asegurarse de tener instalado `git` . Esto se puede revisar muy facilmente a trevez del comando `git --version` . En caso de no estar instalado, se puede hacer a travez de los siguientes paso
+Asegurarse de tener instalado `git` . Esto se puede revisar muy facílmente a trevés del comando `git --version` . En caso de no estar instalado, se puede hacer a través de los siguientes paso
 
-- En linux, a travez del comando `sudo apt install git`.
-- En Windows, a travez de la pagina oficial https://git-scm.com/
+- En Linux, a través del comando `sudo apt install git`.
+- En Windows, a través de la pagina oficial https://git-scm.com/
 
 Procurar tener actualizado `node.js` a la versión `lts`. Si desea asegurarse, puede ejecutar el comando `npm doctor` que le indicara si cumple con los requisitos. Si el comando no se encuentra o `node.js` esta desactualizado, puede instalar `node.js --lts` mediante alguno de los siguientes pasos
 
